@@ -5,6 +5,16 @@
     margin: 0;
     padding: 0;
   }
+  .wrapper-input{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    row-gap: 10px;
+    margin: 50px auto;
+  }
+  input[type=text]{
+    text-transform: capitalize;
+  }
 
 @media(max-width:1440px){}
 @media(max-width:1400px){}

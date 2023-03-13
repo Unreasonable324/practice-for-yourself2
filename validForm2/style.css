@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  font-family: 'Poppins', sans-serif;
+}
+
+#form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+#form h1 {
+  color: #0f2027;
+  text-align: center;
+}
+
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: #0a95ff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 0 0 #ffffff90;
+  transition: all .1s ease;
+
+}
+
+#form button:hover {
+  background-color: #0074cc;
+  box-shadow: inset 0 -1px 0 0 #ffffff90;
+
+}
+
+.text {
+  text-transform: capitalize;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
+.input-control:nth-child(5) .fa-regular {
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+  color: #9e9e9e;
+}
+.input-control:nth-child(5) .fa-regular:hover {
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+  color: #000;
+}
+.input-control .fa-eye{
+  display: none;
+}
